@@ -1,0 +1,14 @@
+# Ignore large datasets
+data/
+dataset/
+*.zip
+*.tar.gz
+
+# Ignore large PyTorch checkpoint and model files
+*.pth
+*.pkl
+*.weights
+
+# Ignore Python integration and cache files
+__pycache__/
+.ipynb_checkpoints/
